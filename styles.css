@@ -1,0 +1,70 @@
+body {
+    text-align: center;
+    background-color: #FFFFDD;
+    background-image: url(images/background.jpg);
+    background-size: 100%;
+}
+h1 {
+    font-size: 4.5em;
+    font-family: "Odibee Sans";
+    color: #FFD95A;
+}
+h2 {
+    font-size: 3rem;
+    font-family: "Odibee Sans";
+    color: #FFD95A;
+}
+.message {
+    margin-bottom: 0px;
+}
+.btn {
+    -webkit-border-radius: 12;
+    -moz-border-radius: 12;
+    border-radius: 12px;
+    font-family: "Odibee Sans";
+    color: #000;
+    font-size: 3.5rem;
+    background: #FFD95A;
+    padding: 2px 45px 2px 45px;
+    text-decoration: none;
+    margin-top: 50px;
+  } 
+  .btn:hover {  
+    background: #F2BE22;
+    text-decoration: none;
+  }
+  .row {
+    padding: 50px 100px 50px 130px;
+  }
+.score {
+    display: inline-block;
+    margin: 0 50px;
+}
+.cardimg {
+    width: 15%;
+    border-radius: 10px;
+}
+.showbtn {
+    display: block;
+    margin: auto;
+}
+.cards {
+    margin-top: 0;
+    color: #fff;
+}
+.usercards {
+    display: inline-block;
+    position: absolute;
+    left: 270px;
+}
+.opponentcards {
+    display: inline-block;
+    position: absolute;
+    right: 180px;
+}
+.gameover {
+   color: red;
+}
+.whitetext {
+    color: #fff;
+}
